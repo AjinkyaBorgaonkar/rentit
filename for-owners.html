@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For owners — RENTit</title>
+<meta name="description" content="The RENTit owner statement: 25% commission, 4% renter protection fee, ₹50,000 cover, payout within 48 hours of a signed return — and a calculator that subtracts upkeep.">
+<meta name="theme-color" content="#efe8da">
+<link rel="preload" href="assets/fonts/bricolage-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/publicsans-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-tick" viewBox="0 0 16 16"><path d="M3 8.6 6.2 12 13 4.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 11.6V4.8A1.8 1.8 0 0 1 4.8 3h6.8c.5 0 1 .2 1.34.56l8.3 8.3c.73.73.73 1.9 0 2.63l-7.05 7.05c-.73.73-1.9.73-2.63 0l-8.3-8.3A1.8 1.8 0 0 1 3 11.6Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="8.2" cy="8.2" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+</svg>
+
+<div class="statusbar">
+  <div class="wrap statusbar__in">
+    <p class="statusbar__live"><span class="dot dot--live" aria-hidden="true"></span>Protocol v3.1<span class="sb-sub"> · lender terms</span></p>
+    <p>IST <span data-clock>--:--</span></p>
+  </div>
+</div>
+
+<header class="site-head">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="RENTit — home">
+      <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.6V4.8A1.8 1.8 0 0 1 4.8 3h6.8c.5 0 1 .2 1.34.56l8.3 8.3c.73.73.73 1.9 0 2.63l-7.05 7.05c-.73.73-1.9.73-2.63 0l-8.3-8.3A1.8 1.8 0 0 1 3 11.6Z"/><circle cx="8.2" cy="8.2" r="1.7" fill="var(--paper)"/></svg>
+      <span class="brand__word">RENTit</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="how-it-works.html">How it works</a></li>
+      <li><a href="for-owners.html" aria-current="page">For owners</a></li>
+      <li><a href="index.html#categories">What's available</a></li>
+    </ul>
+    <div class="nav__actions">
+      <a class="btn btn--ink btn--sm" href="index.html#waitlist">Get early access</a>
+    </div>
+    <button class="nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="navpanel" aria-label="Open menu"><span></span></button>
+  </div>
+  <div class="navpanel" id="navpanel" data-nav-panel data-open="false" hidden>
+    <a href="how-it-works.html">How it works</a>
+    <a href="for-owners.html" aria-current="page">For owners</a>
+    <a href="index.html#categories">What's available</a>
+    <a class="btn btn--ink" href="index.html#waitlist">Get early access</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="band band--paper page-hero">
+    <div class="wrap">
+      <div class="grid-2 grid-2--wide">
+        <div>
+          <h1 class="h1">The maths first. The pitch, if there's time.</h1>
+        </div>
+        <div>
+          <p class="lead">Lending platforms talk about passive income. This page shows the statement: what the item earns, what RENTit keeps, what upkeep costs you whether it rents or not, and what is left.</p>
+          <p class="body" style="margin-top:16px">Nothing here is a projection. The rates, the commission and the upkeep figures are the ones in our own model, including the two examples that fail.</p>
+        </div>
+      </div>
+
+      <div class="terms">
+        <div class="term"><b>75%</b><span>of the rental is yours. RENTit keeps 25% to run verification, cover and the hub.</span></div>
+        <div class="term"><b>₹50,000</b><span>cover per item per rental, with a ₹2,500 deductible on accidental damage.</span></div>
+        <div class="term"><b>48h</b><span>from a signed return to money in your account. Not five to seven working days.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CALCULATOR ============ -->
+  <section class="band band--ink" id="calculator">
+    <div class="wrap calc">
+      <div>
+        <h2 class="h2">Set the rate. Watch what survives the month.</h2>
+        <p class="body" style="margin-top:24px">Owners are usually shown gross earnings, because gross is the number that sounds like income. This panel subtracts the commission, then subtracts maintenance and depreciation: the costs that arrive whether the item rents or sits on a shelf.</p>
+        <p class="body" style="margin-top:16px">Defaults are the model's power-tool example: ₹800 a day, two days a month, ₹600 of upkeep. Change any of them.</p>
+        <p class="mono mono--plain mono--muted" style="margin-top:26px;line-height:1.9">Our listing bar is 2% net monthly yield<br>against item value. Below that, we say no.</p>
+      </div>
+
+      <div class="calc-panel" data-calc>
+        <div class="calc-panel__head">
+          <span class="mono">Owner statement</span>
+          <span class="mono">Per month</span>
+        </div>
+
+        <div class="calc-field">
+          <span class="calc-field__label" id="calc-rate-label">Day rate</span>
+          <span class="calc-field__value" data-out-rate>₹800</span>
+          <span class="stepper">
+            <button type="button" data-step="down" data-field="rate" aria-label="Lower the day rate"></button>
+            <button type="button" data-step="up" data-field="rate" aria-label="Raise the day rate"></button>
+          </span>
+        </div>
+
+        <div class="calc-field">
+          <span class="calc-field__label" id="calc-days-label">Days per month</span>
+          <span class="calc-field__value" data-out-days>2</span>
+          <span class="stepper">
+            <button type="button" data-step="down" data-field="days" aria-label="Fewer days rented"></button>
+            <button type="button" data-step="up" data-field="days" aria-label="More days rented"></button>
+          </span>
+        </div>
+
+        <div class="calc-field">
+          <span class="calc-field__label" id="calc-upkeep-label">Upkeep per month</span>
+          <span class="calc-field__value" data-out-upkeep>− ₹600</span>
+          <span class="stepper">
+            <button type="button" data-step="down" data-field="upkeep" aria-label="Lower the upkeep estimate"></button>
+            <button type="button" data-step="up" data-field="upkeep" aria-label="Raise the upkeep estimate"></button>
+          </span>
+        </div>
+
+        <div class="calc-field">
+          <span class="calc-field__label">Delivery, both ways</span>
+          <span class="calc-field__value" data-out-delivery>Off</span>
+          <span class="stepper stepper--toggle">
+            <button type="button" data-step="toggle" data-field="delivery" aria-pressed="false">Include</button>
+          </span>
+        </div>
+
+        <div class="calc-lines">
+          <div class="calc-line"><span>Rental gross</span><b data-out-gross>₹1,600</b></div>
+          <div class="calc-line"><span>RENTit commission, 25%</span><b data-out-commission>− ₹400</b></div>
+          <div class="calc-line"><span>Cash to you</span><b data-out-keep>₹1,200</b></div>
+          <div class="calc-line"><span>Upkeep</span><b data-out-upkeep-2>− ₹600</b></div>
+        </div>
+
+        <div class="calc-total">
+          <span>Net per month</span>
+          <b data-out-net>₹600</b>
+        </div>
+
+        <div class="sharebar" aria-hidden="true"><i data-out-share style="width:75%"></i><i></i></div>
+        <div class="sharebar__legend"><span data-out-share-label>Owner 75%</span><span>RENTit 25%</span></div>
+
+        <p class="calc-note" data-out-summary>₹800 a day, 2 days a month — ₹600 net after commission and upkeep.</p>
+
+        <p class="mono mono--muted" style="margin-top:22px;padding-top:16px;border-top:1px solid var(--rule)">What the renter pays</p>
+        <div class="calc-lines">
+          <div class="calc-line"><span>Protection fee, 4%</span><b data-out-protect>₹64</b></div>
+          <div class="calc-line"><span>Delivery, both ways</span><b data-out-delivery-fee>—</b></div>
+          <div class="calc-line"><span>Total with rental</span><b data-out-renter>₹1,664</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT QUALIFIES ============ -->
+  <section class="band band--paper" id="qualifies">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="h2">Only list what clears the bar.</h2>
+        <p class="body">Our rule is 2% net monthly yield after commission, maintenance and depreciation. On the model's own numbers that clears a camera and a power tool, and fails a console and a sofa. We would rather say so before you photograph anything.</p>
+      </div>
+
+      <div class="table">
+        <div class="table__head" aria-hidden="true">
+          <span>Category</span><span>Example</span><span>Owner rate</span><span>Net yield</span><span>Clears 2%</span>
+        </div>
+        <div class="table__row">
+          <span class="table__cat">Cameras</span>
+          <span class="table__item">Body and lens · ₹65,000</span>
+          <span class="table__rate">₹1,200/day</span>
+          <span class="table__dep">5.5%</span>
+          <span class="meter" aria-label="Clears the bar: five of five"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>
+        </div>
+        <div class="table__row">
+          <span class="table__cat">Power tools</span>
+          <span class="table__item">Cordless drill · ₹25,000</span>
+          <span class="table__rate">₹800/day</span>
+          <span class="table__dep">2.4%</span>
+          <span class="meter" aria-label="Clears the bar: two of five"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span>
+        </div>
+        <div class="table__row">
+          <span class="table__cat">Consoles</span>
+          <span class="table__item">Console and VR · ₹50,000</span>
+          <span class="table__rate">₹500/day</span>
+          <span class="table__dep">0.8%</span>
+          <span class="meter" aria-label="Below the bar: one of five"><i class="on"></i><i></i><i></i><i></i><i></i></span>
+        </div>
+        <div class="table__row">
+          <span class="table__cat">Furniture</span>
+          <span class="table__item">Two-seat sofa · ₹25,000</span>
+          <span class="table__rate">₹800/month</span>
+          <span class="table__dep">0%</span>
+          <span class="meter" aria-label="Below the bar: zero of five"><i></i><i></i><i></i><i></i><i></i></span>
+        </div>
+      </div>
+
+      <p class="mono mono--plain mono--muted" style="margin-top:18px;max-width:70ch;line-height:1.9">Net yield = owner net after 25% commission, maintenance and depreciation, measured monthly against item value. Console and sofa are shown for completeness: at 0.8% and 0%, neither clears the listing bar.</p>
+    </div>
+  </section>
+
+  <!-- ============ PAYOUTS ============ -->
+  <section class="band band--deep" id="payouts">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="h2">Where the money goes, and in what order.</h2>
+        <p class="body">Three facts decide whether lending feels worth it: when you get paid, what is deducted, and what happens when the item comes back broken.</p>
+      </div>
+
+      <div class="payouts">
+        <div class="payout" data-reveal style="--i:0">
+          <p class="mono">Payout</p>
+          <p class="payout__figure">48h</p>
+          <ul>
+            <li>Signed return, then payment within 48 hours.</li>
+            <li>Deposit held by RENTit, never by you.</li>
+            <li>UPI or bank transfer, with a statement.</li>
+          </ul>
+        </div>
+        <div class="payout" data-reveal style="--i:1">
+          <p class="mono">Commission</p>
+          <p class="payout__figure">25%</p>
+          <ul>
+            <li>Pays for eKYC on both sides.</li>
+            <li>Pays for the nine-angle capture and the hub.</li>
+            <li>Funds the ₹50,000 cover reserve.</li>
+            <li>20% for verified power lenders, 30% for new ones.</li>
+          </ul>
+        </div>
+        <div class="payout" data-reveal style="--i:2">
+          <p class="mono">A camera, six days a month</p>
+          <p class="payout__figure payout__figure--teal">₹3,600</p>
+          <ul>
+            <li>₹7,200 gross at ₹1,200 a day.</li>
+            <li>− ₹1,800 commission.</li>
+            <li>− ₹1,800 maintenance and depreciation.</li>
+            <li>= ₹3,600 net, a 5.5% monthly yield.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ONBOARDING ============ -->
+  <section class="band band--ink" id="onboarding">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="h2">Four steps to your first payout.</h2>
+        <p class="body">The pilot onboards by phone and at the counter, not through a signup flow. A hub manager walks the first listing with you; after that it is repeatable.</p>
+      </div>
+
+      <div class="chain">
+        <div class="chain__step">
+          <p class="chain__n">01</p>
+          <h3>Show us the item</h3>
+          <p>Photos, an invoice or serial number, and a two-minute call. Nothing gets listed without proof of ownership.</p>
+        </div>
+        <div class="chain__step">
+          <p class="chain__n">02</p>
+          <h3>We grade it</h3>
+          <p>Nine angles, a function test, and a written grade. Free professional photos for the listing.</p>
+        </div>
+        <div class="chain__step">
+          <p class="chain__n">03</p>
+          <h3>Agree a rate</h3>
+          <p>You set the rate inside a 2–5% of value guardrail. We show the net yield before you commit.</p>
+        </div>
+        <div class="chain__step">
+          <p class="chain__n">04</p>
+          <h3>Hand it over</h3>
+          <p>The renter arrives, the capture matches, both sign, and the payout starts on return.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="band band--paper">
+    <div class="wrap grid-2 grid-2--wide">
+      <div>
+        <h2 class="h2">The three objections, answered.</h2>
+        <p class="body" style="margin-top:20px">Payout, deposit, protection. Every owner asks in that order, and every owner is right to.</p>
+      </div>
+
+      <div class="faq">
+        <div class="faq__item" data-open="false">
+          <button class="faq__q" type="button" aria-expanded="false" aria-controls="o-faq-1" id="o-faq-q-1"><span>Do I have to let strangers into my home?</span><span class="faq__icon" aria-hidden="true"></span></button>
+          <div class="faq__a" id="o-faq-1" role="region" aria-labelledby="o-faq-q-1"><div><p>No. Handovers happen at the hub counter or a partner shop: a camera store, a hardware store, a café. Doorstep pickup is optional, and only after a renter has a record with us.</p></div></div>
+        </div>
+        <div class="faq__item" data-open="false">
+          <button class="faq__q" type="button" aria-expanded="false" aria-controls="o-faq-2" id="o-faq-q-2"><span>Who holds the deposit?</span><span class="faq__icon" aria-hidden="true"></span></button>
+          <div class="faq__a" id="o-faq-2" role="region" aria-labelledby="o-faq-q-2"><div><p>RENTit does, as a card or UPI authorisation where the rails support it, otherwise as a refundable ₹2,000–₹10,000 hold. You never collect cash at the door, which is exactly the moment a rental turns into an argument.</p></div></div>
+        </div>
+        <div class="faq__item" data-open="false">
+          <button class="faq__q" type="button" aria-expanded="false" aria-controls="o-faq-3" id="o-faq-q-3"><span>What happens if the renter damages it?</span><span class="faq__icon" aria-hidden="true"></span></button>
+          <div class="faq__a" id="o-faq-3" role="region" aria-labelledby="o-faq-q-3"><div><p>You open a claim within 24 hours of the signed return, pointing at a zone in the diff. Accidental damage is paid from the protection fund up to ₹50,000, less the ₹2,500 deductible, within seven days of the decision. Normal wear is yours; it is priced into the rate.</p></div></div>
+        </div>
+        <div class="faq__item" data-open="false">
+          <button class="faq__q" type="button" aria-expanded="false" aria-controls="o-faq-4" id="o-faq-q-4"><span>Do I have to deliver the item?</span><span class="faq__icon" aria-hidden="true"></span></button>
+          <div class="faq__a" id="o-faq-4" role="region" aria-labelledby="o-faq-q-4"><div><p>No. Self-pickup is the default because delivery costs ₹149 each way and wipes out the margin on small rentals. If a renter pays for delivery, the hub handles it, not you.</p></div></div>
+        </div>
+        <div class="faq__item" data-open="false">
+          <button class="faq__q" type="button" aria-expanded="false" aria-controls="o-faq-5" id="o-faq-q-5"><span>What does it cost to list?</span><span class="faq__icon" aria-hidden="true"></span></button>
+          <div class="faq__a" id="o-faq-5" role="region" aria-labelledby="o-faq-q-5"><div><p>Nothing. Photography, grading and listing copy are free. RENTit only earns when the item rents: 25% of the rental, plus a 4% protection fee the renter pays separately. A listing that never rents costs you nothing but the walk to the hub.</p></div></div>
+        </div>
+        <div class="faq__item" data-open="false">
+          <button class="faq__q" type="button" aria-expanded="false" aria-controls="o-faq-6" id="o-faq-q-6"><span>What can't I list?</span><span class="faq__icon" aria-hidden="true"></span></button>
+          <div class="faq__a" id="o-faq-6" role="region" aria-labelledby="o-faq-q-6"><div><p>Medical devices, weapons, hazardous chemicals, and high-risk tools without an induction. Anything without proof of ownership stays off the network, and so does anything graded below C.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING CTA ============ -->
+  <section class="band band--orange cta">
+    <svg class="cta__tag" viewBox="0 0 340 300" aria-hidden="true" focusable="false">
+      <g fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(-10 170 150)">
+        <path d="M120 24h186a14 14 0 0 1 14 14v118a14 14 0 0 1-4.1 9.9l-108 108a14 14 0 0 1-19.8 0L24 78.9A14 14 0 0 1 20 69V24Z" stroke-linejoin="round"/>
+        <circle cx="250" cy="78" r="21"/>
+      </g>
+    </svg>
+    <div class="wrap cta__inner">
+      <h2>One item is enough to start.</h2>
+      <p class="lead">The pilot takes twenty-five lenders in Indiranagar. Onboarding is a phone call and a visit to the counter. There is no account system yet, and this page will not pretend otherwise.</p>
+      <div class="cta__secondary">
+        <a class="btn btn--ink" href="index.html#categories">See what rents first</a>
+        <a class="link-arrow" href="how-it-works.html">Read the protocol <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <p class="cta__meta mono">25% commission · 4% renter protection · ₹50,000 cover · 48h payout</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div>
+        <p class="footer__word">RENTit</p>
+        <p class="footer__tagline">A rental layer for one neighbourhood at a time. Trust is the product; the listings are the by-product.</p>
+      </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h3>Rent</h3>
+          <ul>
+            <li><a href="index.html#categories">Cameras &amp; lenses</a></li>
+            <li><a href="index.html#categories">Power tools</a></li>
+            <li><a href="index.html#categories">Projectors &amp; AV</a></li>
+            <li><a href="index.html#categories">Furniture</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3>Own</h3>
+          <ul>
+            <li><a href="for-owners.html">Why lend</a></li>
+            <li><a href="for-owners.html#calculator">Earnings calculator</a></li>
+            <li><a href="for-owners.html#qualifies">What qualifies</a></li>
+            <li><a href="for-owners.html#payouts">Payouts</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3>Protocol</h3>
+          <ul>
+            <li><a href="how-it-works.html">How it works</a></li>
+            <li><a href="how-it-works.html#grading">Grading scale</a></li>
+            <li><a href="how-it-works.html#disputes">Disputes</a></li>
+            <li><a href="how-it-works.html#guarantee">Guarantee</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3>Pilot</h3>
+          <ul>
+            <li>Indiranagar, Bengaluru</li>
+            <li>3,000 households</li>
+            <li>3 km radius</li>
+            <li>Protocol v3.1</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__base">
+      <p>© 2026 RENTit · Bengaluru</p>
+      <p>Every figure traces to the business model. Nothing here is live inventory.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
