@@ -71,26 +71,7 @@
 
     var ring = doc.createElementNS(NS, "ellipse");
     ring.setAttribute("cx", cx);
-    ring.setAttribute("cy", cy);
-    ring.setAttribute("rx", rx);
-    ring.setAttribute("ry", ry);
-    ring.setAttribute("fill", "none");
-    ring.setAttribute("stroke", "#101513");
-    ring.setAttribute("stroke-opacity", "0.3");
-    ring.setAttribute("stroke-dasharray", "3 6");
-    svg.appendChild(ring);
-
-    var step = 13;
-    var narrow = svg.clientWidth > 0 && svg.clientWidth < 420;
-    var spanX = narrow ? 11 : 14;
-    var spanY = narrow ? 7 : 9;
-    if (narrow) step = 17;
-    for (var gy = -spanY; gy <= spanY; gy++) {
-      for (var gx = -spanX; gx <= spanX; gx++) {
-        var nx = gx / spanX,
-          ny = gy / spanY;
-        if (nx * nx + ny * ny > 1.02) continue;
-        var seed = Math.abs(Math.sin(gx * 12.9898 + gy * 78.233) * 43758.5453) % 1;
+    ring.setAttribu8.5453) % 1;
         var dot = doc.createElementNS(NS, "circle");
         dot.setAttribute("cx", String(cx + gx * step + (gy % 2 ? 3 : 0)));
         dot.setAttribute("cy", String(cy + gy * step));
